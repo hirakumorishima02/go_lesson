@@ -1,8 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	var x = 1 + 1
-	fmt.Println(x)
+	var s string = "Hello World"
+	fmt.Println(strings.Replace(s, "o", "X", 2))
+
+	fmt.Println(`Test
+	test
+						test`)
+	fmt.Println("\"")
+	fmt.Println(`"`)
 }
