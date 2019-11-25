@@ -1,2 +1,1 @@
-# go_lesson.
-
+# go_lesson
